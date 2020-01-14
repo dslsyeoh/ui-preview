@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import org.tbee.javafx.scene.layout.fxml.MigPane?>
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.dsl.ui.preview.BaseController">
+    <center>
+        <MigPane layout="ins 10" cols="[grow]">
+            <TreeView fx:id="treeView" MigPane.cc="growx"/>
+        </MigPane>
+    </center>
+</BorderPane>
