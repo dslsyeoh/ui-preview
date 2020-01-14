@@ -29,8 +29,8 @@ public class BaseController implements Initializable
         treeView.getRoot().getChildren().add(new TreeItem<>("TextField"));
         treeView.getRoot().getChildren().add(new TreeItem<>("Dropdown"));
         treeView.setCellFactory(cell -> new CustomTreeCell());
-        treeView.setFixedCellSize(50);
         treeView.getRoot().setExpanded(true);
+        treeView.setFixedCellSize(50);
     }
 
     public class CustomTreeCell extends TreeCell<String>
